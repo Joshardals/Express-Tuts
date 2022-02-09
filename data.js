@@ -29,4 +29,12 @@ const people = [
   },
 ];
 
-module.exports = { people };
+const people2 = [
+  { id: 1, name: "john" },
+  { id: 2, name: "tom" },
+  { id: 3, name: "susan" },
+  { id: 4, name: "anne" },
+  { id: 5, name: "peter" },
+];
+
+module.exports = { people, people2 };
